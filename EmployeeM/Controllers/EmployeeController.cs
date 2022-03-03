@@ -11,26 +11,26 @@ namespace EmployeeM.Controllers
 
         public static List<Employee> employees = new List<Employee>
             {
-                new Employee
-                {
-                    ID = 1,
-                    FirstName = "Brian",
-                    LastName = "Henry"
-                },
+                //new Employee
+                //{
+                //    ID = 1,
+                //    FirstName = "Brian",
+                //    LastName = "Henry"
+                //},
 
-                new Employee
-                {
-                    ID = 2,
-                    FirstName = "Shawn",
-                    LastName = "Mendes"
-                },
+                //new Employee
+                //{
+                //    ID = 2,
+                //    FirstName = "Shawn",
+                //    LastName = "Mendes"
+                //},
 
-                new Employee
-                {
-                    ID = 3,
-                    FirstName = "Johon",
-                    LastName = "David"
-                }
+                //new Employee
+                //{
+                //    ID = 3,
+                //    FirstName = "Johon",
+                //    LastName = "David"
+                //}
         };
         private readonly DataContext _context;
 
